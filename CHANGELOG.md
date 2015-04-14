@@ -1,4 +1,5 @@
 # Changelog
 
-### 0.0.0
-Init
+## v1.0.0 | 2015-04-14
+Initial release
+
