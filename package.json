@@ -14,7 +14,8 @@
   },
   "keywords": [
     "eslint-one-var-es6",
-    "eslint-plugin",
+    "eslintplugin",
+    "eslint",
     "es6"
   ],
   "scripts": {

@@ -1,6 +1,6 @@
 # eslint-one-var-es5 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
 
-custom eslint rule for one-var that adds es6 compat
+Custom eslint rule for one-var that adds es6 compat
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -29,25 +29,24 @@ npm i -S eslint-one-var-es5
 ## Usage
 
 ```js
-var eslintOneVarCustom = require('eslint-one-var-es5')
+// .eslintrc
 
-eslintOneVarCustom('Rainbow')
+"plugins": [
+  "eslint-one-var-es5"
+],
+"rules": {
+    "eslint-one-var-es5/one-var-es5": [2, "always"],
+    "eslint-one-var-es5/one-let": [2, "never"],
+    "eslint-one-var-es5/one-const": [2, "never"]
+}
+
 ```
 
-## Methods
-### get `(<String> string)`
-Returns the string passed to it.
-
-## Events
-### myEvent `(<String> myString)`
-Emitted when x happens. Passes `myString` which is a y.
-
 ## Tests
-Tests are in [tape](https://github.com/substack/tape) and code coverage is run though [covert](https://github.com/substack/covert).
+Tests are run with [eslint-tester](https://github.com/eslint/eslint-tester).
 
-* `npm test` will run both server and browser tests
-* `npm run test-browser` and `npm run test-server` run their respective tests
-* `npm run tdd-server` will run the server tests on every file change.
+* `npm test` will run the tests
+* `npm run tdd` will run the tests on every file change.
 
 ## Developing
 To publish, run `npm run release -- [{patch,minor,major}]`
