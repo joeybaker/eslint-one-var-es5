@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.6 | 2015-04-14
+* Fix rule paths #oops
+
 ## v1.0.5 | 2015-04-14
 * Fix name (again) #oops
 
@@ -19,6 +22,7 @@
 
 ## v1.0.0 | 2015-04-14
 Initial release
+
 
 
 
