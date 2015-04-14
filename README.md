@@ -8,10 +8,6 @@ Custom eslint rule for one-var that adds es6 compat
 
 - [Install](#install)
 - [Usage](#usage)
-- [Methods](#methods)
-  - [get `(<String> string)`](#get-string-string)
-- [Events](#events)
-  - [myEvent `(<String> myString)`](#myevent-string-mystring)
 - [Tests](#tests)
 - [Developing](#developing)
   - [Requirements](#requirements)
