@@ -15,7 +15,7 @@ var eslint = require("eslint").linter,
     ESLintTester = require("eslint-tester");
 
 var eslintTester = new ESLintTester(eslint);
-eslintTester.addRuleTest("rules/one-var-es5", {
+eslintTester.addRuleTest("rules/one-var-es6", {
     valid: [
         "function foo() { var bar = true; }",
         "function foo() { var bar = true, baz = 1; if (qux) { bar = false; } }",
