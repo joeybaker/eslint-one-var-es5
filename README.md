@@ -1,4 +1,4 @@
-# eslint-one-var-es6 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
+# eslint-plugin-one-var-es6 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
 
 Custom eslint rule for one-var that adds es6 compat
 
@@ -18,7 +18,7 @@ Custom eslint rule for one-var that adds es6 compat
 ## Install
 
 ```sh
-npm i -S eslint-one-var-es6
+npm i -S eslint-plugin-one-var-es6
 ```
 
 
@@ -28,12 +28,12 @@ npm i -S eslint-one-var-es6
 // .eslintrc
 
 "plugins": [
-  "eslint-one-var-es6"
+  "eslint-plugin-one-var-es6"
 ],
 "rules": {
-    "eslint-one-var-es6/one-var-es6": [2, "always"],
-    "eslint-one-var-es6/one-let": [2, "never"],
-    "eslint-one-var-es6/one-const": [2, "never"]
+    "eslint-plugin-one-var-es6/one-var-es6": [2, "always"],
+    "eslint-plugin-one-var-es6/one-let": [2, "never"],
+    "eslint-plugin-one-var-es6/one-const": [2, "never"]
 }
 
 ```
@@ -58,9 +58,9 @@ _NOTE: you might need to `sudo ln -s /usr/local/bin/node /usr/bin/node` to ensur
 Artistic 2.0 © [Joey Baker](https://byjoeybaker.com)
 
 
-[npm-url]: https://npmjs.org/package/eslint-one-var-es6
-[npm-image]: https://badge.fury.io/js/eslint-one-var-es6.svg
-[travis-url]: https://travis-ci.org/joeybaker/eslint-one-var-es6
-[travis-image]: https://travis-ci.org/joeybaker/eslint-one-var-es6.svg?branch=master
-[daviddm-url]: https://david-dm.org/joeybaker/eslint-one-var-es6.svg?theme=shields.io
-[daviddm-image]: https://david-dm.org/joeybaker/eslint-one-var-es6
+[npm-url]: https://npmjs.org/package/eslint-plugin-one-var-es6
+[npm-image]: https://badge.fury.io/js/eslint-plugin-one-var-es6.svg
+[travis-url]: https://travis-ci.org/joeybaker/eslint-plugin-one-var-es6
+[travis-image]: https://travis-ci.org/joeybaker/eslint-plugin-one-var-es6.svg?branch=master
+[daviddm-url]: https://david-dm.org/joeybaker/eslint-plugin-one-var-es6.svg?theme=shields.io
+[daviddm-image]: https://david-dm.org/joeybaker/eslint-plugin-one-var-es6

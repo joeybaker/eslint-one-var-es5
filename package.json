@@ -1,19 +1,19 @@
 {
   "version": "1.0.4",
-  "name": "eslint-one-var-es6",
+  "name": "eslint-plugin-one-var-es6",
   "description": "eslint rule for one-var that adds es6 compat",
   "author": {
     "name": "Joey Baker",
     "email": "joey@byjoeybaker.com",
     "url": "https://byjoeybaker.com"
   },
-  "repository": "joeybaker/eslint-one-var-es6",
+  "repository": "joeybaker/eslint-plugin-one-var-es6",
   "license": "Artistic-2.0",
   "directories": {
     "test": "test"
   },
   "keywords": [
-    "eslint-one-var-es6",
+    "eslint-plugin-one-var-es6",
     "eslintplugin",
     "eslint",
     "es6"
