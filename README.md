@@ -1,4 +1,4 @@
-# eslint-one-var-custom [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
+# eslint-one-var-es5 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
 
 custom eslint rule for one-var that adds es6 compat
 
@@ -22,14 +22,14 @@ custom eslint rule for one-var that adds es6 compat
 ## Install
 
 ```sh
-npm i -S eslint-one-var-custom
+npm i -S eslint-one-var-es5
 ```
 
 
 ## Usage
 
 ```js
-var eslintOneVarCustom = require('eslint-one-var-custom')
+var eslintOneVarCustom = require('eslint-one-var-es5')
 
 eslintOneVarCustom('Rainbow')
 ```
@@ -63,9 +63,9 @@ _NOTE: you might need to `sudo ln -s /usr/local/bin/node /usr/bin/node` to ensur
 Artistic 2.0 © [Joey Baker](https://byjoeybaker.com)
 
 
-[npm-url]: https://npmjs.org/package/eslint-one-var-custom
-[npm-image]: https://badge.fury.io/js/eslint-one-var-custom.svg
-[travis-url]: https://travis-ci.org/joeybaker/eslint-one-var-custom
-[travis-image]: https://travis-ci.org/joeybaker/eslint-one-var-custom.svg?branch=master
-[daviddm-url]: https://david-dm.org/joeybaker/eslint-one-var-custom.svg?theme=shields.io
-[daviddm-image]: https://david-dm.org/joeybaker/eslint-one-var-custom
+[npm-url]: https://npmjs.org/package/eslint-one-var-es5
+[npm-image]: https://badge.fury.io/js/eslint-one-var-es5.svg
+[travis-url]: https://travis-ci.org/joeybaker/eslint-one-var-es5
+[travis-image]: https://travis-ci.org/joeybaker/eslint-one-var-es5.svg?branch=master
+[daviddm-url]: https://david-dm.org/joeybaker/eslint-one-var-es5.svg?theme=shields.io
+[daviddm-image]: https://david-dm.org/joeybaker/eslint-one-var-es5
