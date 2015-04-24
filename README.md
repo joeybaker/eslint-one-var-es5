@@ -1,5 +1,8 @@
 # eslint-plugin-one-var-es6 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
 
+# THIS MODULE IS DEPRECATED
+## It's functionality was added in eslint v0.20.0
+
 Custom eslint rule for one-var that adds es6 compat
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
