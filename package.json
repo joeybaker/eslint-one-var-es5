@@ -1,5 +1,5 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "name": "eslint-plugin-one-var-es6",
   "description": "eslint rule for one-var that adds es6 compat",
   "author": {

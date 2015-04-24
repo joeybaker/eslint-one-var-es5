@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.7 | 2015-04-24
+* Add deprecation notice
+
 ## v1.0.6 | 2015-04-14
 * Fix rule paths #oops
 
@@ -22,6 +25,7 @@
 
 ## v1.0.0 | 2015-04-14
 Initial release
+
 
 
 
